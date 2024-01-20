@@ -10,5 +10,10 @@ public class controller {
 		return "Running";
 		
 	}
+	@GetMapping("run")
+	public String status() {
+		return "Running123";
+		
+	}
 
 }
